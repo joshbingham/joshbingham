@@ -102,5 +102,36 @@ section p {
     color: #555;
 }
 
+/* Footer Styles */
+
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.site-footer a {
+    color: #3498db;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer p {
+    color: #ccc;
+}
+
+footer ul li {
+    margin: 0.5rem 0;
+}
+
+
+
 
 
