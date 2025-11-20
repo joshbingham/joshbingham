@@ -136,6 +136,33 @@ footer ul li {
     margin: 0.5rem 0;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.social-links li a {
+    color: #fff;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.social-links li a:hover {
+    color: #3498db;
+}
+
+.social-links i {
+    font-size: 1.2rem;
+}
+
+
+
 
 
 
