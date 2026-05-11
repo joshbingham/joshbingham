@@ -95,12 +95,11 @@ main {
 }
 
 .tagline {
-    color: #3B82F6;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
+    color: #60A5FA;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.3px;
 }
 
 .hero-description {
