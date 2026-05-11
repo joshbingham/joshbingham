@@ -265,6 +265,34 @@ footer ul li {
     font-size: 1.2rem;
 }
 
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .header-container,
+    main {
+        padding: 1.5rem;
+    }
+
+    .header-text h1 {
+        font-size: 2.3rem;
+    }
+
+    .header-text h2 {
+        font-size: 1.1rem;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+    .project-links {
+        flex-wrap: wrap;
+    }
+}
 
 
 
