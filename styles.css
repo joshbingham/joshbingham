@@ -38,13 +38,13 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 3rem;
     background-color: #1E293B;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     gap: 2rem;;
     max-width: 900px;
     margin: 10px auto;
-    border-radius: 10px;
+    border-radius: 16px;
     border: 1px solid rgba(255,255,255,0.08);
 }
 
@@ -53,13 +53,29 @@ ul {
 }
 
 .header-text h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
     margin-bottom: 0.5rem;
 }
 
 .header-text h2 {
-    font-size: 1.2rem;
-    color: #94A3B8;
+    font-size: 1.35rem;
+    line-height: 1.5;
+    color: #CBD5E1;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+nav a {
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: rgba(59,130,246,0.1);
+    text-decoration: none;
 }
 
 nav ul {
@@ -89,8 +105,8 @@ main {
     margin: 2rem auto;
     background-color: #1E293B;
     padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 16px;
     border: 1px solid rgba(255,255,255,0.08);
 }
 
@@ -152,6 +168,10 @@ section p {
     border-color: rgba(59,130,246,0.4);
 }
 
+.project-card:last-child {
+    margin-bottom: 0;
+}
+
 .project-card h4 {
     margin-bottom: 1rem;
     color: #F8FAFC;
@@ -181,6 +201,9 @@ section p {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    margin-top: 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.08);
 }
 
 .site-footer a {
