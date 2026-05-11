@@ -67,6 +67,10 @@ ul {
     margin-top: 1rem;
 }
 
+nav {
+    margin-top: 2rem;
+}
+
 nav a {
     padding: 0.5rem 0.75rem;
     border-radius: 8px;
@@ -81,7 +85,6 @@ nav a:hover {
 nav ul {
     display: flex;
     gap: 1rem;
-    margin-top: 1rem;
     justify-content: center;
     list-style: none;
     padding: 0;
@@ -123,6 +126,8 @@ main {
     color: #CBD5E1;
     font-size: 1rem;
     max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-section p {
@@ -192,6 +197,15 @@ section p {
 .project-links a {
     color: #3B82F6;
     font-weight: 600;
+    background-color: rgba(59,130,246,0.1);
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.project-links a:hover {
+    background-color: rgba(59,130,246,0.2);
+    text-decoration: none;
 }
 
 /* Footer Styles */
