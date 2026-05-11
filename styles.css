@@ -80,6 +80,7 @@ nav ul {
 .header-image img {
     max-width: 100%;
     border-radius: 50%;
+    border: 3px solid #3B82F6;
 }
 
 /* Main Styles */
@@ -87,10 +88,18 @@ nav ul {
 main {
     max-width: 800px;
     margin: 2rem auto;
-    background-color: #fff;
+    background-color: #1E293B;
     padding: 2rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.hero-description {
+    margin-top: 1rem;
+    color: #CBD5E1;
+    font-size: 1rem;
+    max-width: 600px;
 }
 
 section {
@@ -100,19 +109,52 @@ section {
 section h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #222;
+    color: #F8FAFC;
 }
 
 section p {
     font-size: 1rem;
     margin-bottom: 1rem;
-    color: #555;
+    color: #CBD5E1;
+}
+
+/* Project Card Styles */
+
+.project-card {
+    background-color: #0F172A;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255,255,255,0.08);
+    text-align: left;
+}
+
+.project-card h4 {
+    margin-bottom: 1rem;
+    color: #F8FAFC;
+    font-size: 1.3rem;
+}
+
+.project-card p {
+    margin-bottom: 1rem;
+    color: #CBD5E1;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.project-links a {
+    color: #3B82F6;
+    font-weight: 600;
 }
 
 /* Footer Styles */
 
 .site-footer {
-    background-color: #222;
+    background-color: #0F172A;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
