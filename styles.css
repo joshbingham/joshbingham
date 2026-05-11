@@ -49,8 +49,7 @@ ul {
 }
 
 .header-text {
-    flex: 1 1 300px;
-    text-align: center;
+    max-width: 650px;
 }
 
 .header-text h1 {
@@ -95,11 +94,24 @@ main {
     border: 1px solid rgba(255,255,255,0.08);
 }
 
+.tagline {
+    color: #3B82F6;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
 .hero-description {
     margin-top: 1rem;
     color: #CBD5E1;
     font-size: 1rem;
     max-width: 600px;
+}
+
+.about-section p {
+    margin-bottom: 1.5rem;
 }
 
 section {
@@ -118,6 +130,12 @@ section p {
     color: #CBD5E1;
 }
 
+.section-intro {
+    max-width: 650px;
+    margin: 0 auto 2rem auto;
+    color: #94A3B8;
+}
+
 /* Project Card Styles */
 
 .project-card {
@@ -127,6 +145,12 @@ section p {
     margin-bottom: 2rem;
     border: 1px solid rgba(255,255,255,0.08);
     text-align: left;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(59,130,246,0.4);
 }
 
 .project-card h4 {
