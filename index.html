@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joshua Bingham | Data-Driven Web Applications</title>
+    <title>Joshua Bingham | Frontend & Full-Stack Developer</title>
     <link rel="stylesheet" href="styles.css">
+
     <!-- Font Awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,94 +17,196 @@
     <!-- Header -->
     <header class="header-container">
         <div class="header-text">
-            <p class="tagline">Data-Driven Full-Stack Developer</p>
+            <p class="tagline">Frontend & Full-Stack Developer</p>
+
             <h1>Joshua Bingham</h1>
-            <h2>Designing intelligent web applications that simplify discovery, filtering, and decision-making.</h2>
+
+            <div class="header-image">
+                <img src="./profile_img.jpg" alt="Profile Picture of Joshua Bingham">
+            </div>
+
+            <h2>Turning complex workflows into clear web interfaces.</h2>
+
             <p class="hero-description">
-                Full-stack developer focused on discovery workflows, intelligent filtering systems, and scalable web applications built with React, Node.js, and PostgreSQL.
+                I build React and TypeScript prototypes, workflow tools, and data-driven apps for small projects, early-stage ideas, and junior developer opportunities.
             </p>
-            <div class="tech-stack">
+
+            <p class="availability-note">
+                Available for small freelance projects, frontend prototypes, and junior developer opportunities.
+            </p>
+
+            <div class="hero-actions">
+                <a class="button-link primary" href="mailto:joshuabingham@hotmail.co.uk?subject=Project%20enquiry">Discuss a Project</a>
+                <a class="button-link secondary" href="./Joshua_Bingham_CV.pdf" target="_blank" rel="noopener noreferrer">View My CV</a>
+            </div>
+
+            <div class="tech-stack" aria-label="Key technologies">
                 <span>React</span>
+                <span>TypeScript</span>
                 <span>Node.js</span>
                 <span>PostgreSQL</span>
                 <span>REST APIs</span>
-                <span>JavaScript</span>
             </div>
+
             <nav>
-            <ul>
-                <li><a href="./Joshua_Bingham_CV.pdf" target="_blank" rel="noopener noreferrer">View My CV</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        </div>
-        <div class="header-image">
-            <img src="./profile_img.jpg" alt="Profile Picture of Joshua Bingham">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+
     <main>
-    <!-- About section -->
-    <section id="about" class="about-section">
-        <h3>About</h3>
-        <p>
-            I’m a full-stack developer with a background in Aerospace Engineering, focused on building data-driven web applications that reduce complexity and improve user experience. My work centres around intelligent filtering tools, discovery workflows, and structured user experiences that help users make better decisions and find what they’re looking for faster.
-        </p>
+        <!-- Services section -->
+        <section id="services" class="services-section">
+            <h3>What I can build</h3>
 
-        <p>
-            I enjoy solving complex problems through thoughtful engineering, clean interfaces, and scalable application design using technologies such as React, Node.js, PostgreSQL, and REST APIs.
-        </p>
-    </section>
-    <!-- Projects section -->
-    <section id="projects" class="projects-section">
-        <h3>Selected Projects</h3>
-        <p class="section-intro">
-            A selection of projects focused on discovery workflows, intelligent filtering systems, and data-driven user experiences.
-        </p>
-        <div class="project-card">
-            <h4>First Step Jobs</h4>
-
-            <p>
-                A full-stack job discovery platform designed to simplify how users search, filter, and evaluate job opportunities through intelligent workflows and data-driven recommendations.
+            <p class="section-intro">
+                Focused support for prototypes, workflow tools, and interfaces that make information easier to use.
             </p>
 
-            <p>
-                Built with React, Node.js, PostgreSQL, and REST APIs, the platform includes dynamic filtering, saved job tracking, asynchronous data handling, and structured user workflows designed to reduce friction and simplify job discovery.
-            </p>
+            <div class="service-grid">
+                <article class="service-card">
+                    <i class="fas fa-diagram-project"></i>
+                    <h4>Prototype an idea</h4>
+                    <p>
+                        Clickable React and TypeScript prototypes for testing early-stage ideas, demos, and user flows.
+                    </p>
+                </article>
 
-            <div class="project-links">
-                <a href="https://github.com/joshbingham/first-step-jobs" target="_blank" rel="noopener noreferrer">Code</a>
-                <a href="https://first-step-jobs-i7z9.vercel.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <article class="service-card">
+                    <i class="fas fa-list-check"></i>
+                    <h4>Simplify a workflow</h4>
+                    <p>
+                        Multi-step forms, editable screens, and structured outputs that reduce manual admin.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <i class="fas fa-database"></i>
+                    <h4>Make data easier to use</h4>
+                    <p>
+                        Search, filtering, saved views, and API-connected screens that help users make decisions faster.
+                    </p>
+                </article>
             </div>
-        </div>
+        </section>
 
-        <div class="project-card">
-            <h4>Film Finder</h4>
+        <!-- Projects section -->
+        <section id="projects" class="projects-section">
+            <h3>Selected work</h3>
 
-            <p>
-                A movie discovery platform designed to help users explore and filter film data through responsive, user-focused interfaces and API-driven functionality.
+            <p class="section-intro">
+                Recent work and portfolio projects showing frontend prototyping, workflow design, and data-driven interfaces.
             </p>
 
-            <p>
-                Built using JavaScript, serverless backend functions, and external API integration, with features including genre filtering, release-window filtering, and persistent user preferences designed to simplify movie discovery.
-            </p>
+            <div class="project-card featured-project">
+                <p class="project-label">Recent client project</p>
+                <h4>Frontend Prototype for Audio Transcription Tool</h4>
 
-            <div class="project-links">
-                <a href="https://github.com/joshbingham/Film-Finder" target="_blank" rel="noopener noreferrer">Code</a>
-                <a href="https://film-finder-khaki.vercel.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <p>
+                    Delivered a React and TypeScript frontend prototype for an audio transcription workflow tool, helping turn session content into structured outputs for review and reducing manual admin.
+                </p>
+
+                <p>
+                    The prototype included template selection, session setup, consent, simulated audio upload/recording, structured output review, editable sections, resource links, and final preview screens.
+                </p>
+
+                <p class="project-meta">
+                    React · TypeScript · Vite · GitHub Projects · Pull Requests
+                </p>
             </div>
-        </div>
-    </section>
+
+            <div class="project-card">
+                <p class="project-label portfolio-label">Portfolio project</p>
+                <h4>First Step Jobs</h4>
+
+                <p>
+                    A full-stack job discovery platform with intelligent filtering, saved jobs, match scoring, commute insights, and backend-driven pagination.
+                </p>
+
+                <p>
+                    Built with React, Node.js, PostgreSQL, and REST APIs to make job searching more structured and easier to review.
+                </p>
+
+                <div class="project-links">
+                    <a href="https://github.com/joshbingham/first-step-jobs" target="_blank" rel="noopener noreferrer">Code</a>
+                    <a href="https://first-step-jobs-i7z9.vercel.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <p class="project-label portfolio-label">Portfolio project</p>
+                <h4>Film Finder</h4>
+
+                <p>
+                    An API-driven movie discovery app with genre filtering, release-window filtering, recommendations, and persistent user preferences.
+                </p>
+
+                <p>
+                    Built with JavaScript, serverless backend functions, and external API integration.
+                </p>
+
+                <div class="project-links">
+                    <a href="https://github.com/joshbingham/Film-Finder" target="_blank" rel="noopener noreferrer">Code</a>
+                    <a href="https://film-finder-khaki.vercel.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="about-section">
+            <h3>About</h3>
+
+            <p>
+                I’m a frontend/full-stack developer with a background in Aerospace Engineering. I enjoy building practical web applications that make complex information easier to search, filter, edit, and act on.
+            </p>
+
+            <p>
+                I’ve completed paid freelance frontend work from a client brief and use GitHub issues, branches, pull requests, and regular feedback to keep development organised.
+            </p>
+        </section>
+
+        <!-- Process section -->
+        <section class="process-section">
+            <h3>A clear, organised build process</h3>
+
+            <div class="process-list">
+                <p><strong>Clear scope.</strong> I break the brief into practical features and screens.</p>
+                <p><strong>Iterative build.</strong> I share progress early so feedback can shape the prototype.</p>
+                <p><strong>Organised delivery.</strong> I use GitHub issues, branches, and pull requests to track work.</p>
+            </div>
+        </section>
     </main>
+
     <!-- Contact section -->
     <footer class="site-footer">
         <section id="contact" class="contact-section">
             <h3>Contact</h3>
-            <p>If you'd like to get in touch or learn more about my work you can find me at: </p>
+
+            <p>
+                Looking for help with a frontend prototype, workflow tool, or small web application?
+            </p>
+
             <ul class="social-links">
-                <li><a href="mailto:joshuabingham@hotmail.co.uk"><i class="fas fa-envelope"></i>Email</a></li>
-                <li><a href="https://www.linkedin.com/in/joshua-bingham-48961112b" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
-                <li><a href="https://github.com/joshbingham" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>GitHub</a></li>
+                <li>
+                    <a href="mailto:joshuabingham@hotmail.co.uk?subject=Project%20enquiry">
+                        <i class="fas fa-envelope"></i>Email
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/joshua-bingham-48961112b" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/joshbingham" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>GitHub
+                    </a>
+                </li>
             </ul>
         </section>
     </footer>
