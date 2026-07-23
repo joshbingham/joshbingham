@@ -14,23 +14,23 @@ A taste-based movie discovery app that helps users find films by mood, genre, re
 
 Built with JavaScript, Vercel serverless functions, the TMDB API, LocalStorage and custom recommendation scoring.
 
+[Live app](https://film-finder-khaki.vercel.app/) · [Repository](https://github.com/joshbingham/Film-Finder)
+
 ### First Step Jobs
 
 A full-stack job discovery platform that aggregates roles from multiple APIs and helps users compare opportunities more clearly.
 
 Built with React, Node.js, Express and external APIs.
 
-### Career Action Plan Prototype
-
-A React and TypeScript workflow prototype for a careers adviser action-plan setup flow.
-
-Built with React, TypeScript, Vite and CSS, focusing on template selection, session setup, validation and conditional interaction flow.
+[Live app](https://first-step-jobs-i7z9.vercel.app/) · [Repository](https://github.com/joshbingham/first-step-jobs)
 
 ### Mole Unearther
 
 A browser game with a live leaderboard.
 
 Built with Phaser 3, JavaScript, Node.js, Express and Supabase.
+
+[Live app](https://joshbingham.github.io/Mole-Game/) · [Repository](https://github.com/joshbingham/Mole-Game)
 
 ## Tech I work with
 
