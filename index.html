@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Joshua Bingham is a Worthing-based frontend and full-stack developer building React and TypeScript prototypes, workflow tools, and data-driven web applications.">
-    <meta property="og:title" content="Joshua Bingham | Frontend & Full-Stack Developer">
-    <meta property="og:description" content="React and TypeScript prototypes, workflow tools, and data-driven web applications.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://joshbingham.github.io/joshbingham/">
-    <meta property="og:image" content="https://joshbingham.github.io/joshbingham/profile_img.jpg">
+
     <title>Joshua Bingham | Frontend & Full-Stack Developer</title>
+
+    <meta
+        name="description"
+        content="Joshua Bingham is a Worthing-based frontend and full-stack developer building React and TypeScript prototypes, workflow tools, and data-driven web applications."
+    >
+
+    <link rel="canonical" href="https://joshbingham.dev/">
+
+    <meta property="og:title" content="Joshua Bingham | Frontend & Full-Stack Developer">
+    <meta
+        property="og:description"
+        content="Worthing-based frontend and full-stack developer building React and TypeScript prototypes, workflow tools, and data-driven web applications."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://joshbingham.dev/">
+    <meta property="og:site_name" content="Joshua Bingham">
+    <meta property="og:image" content="https://joshbingham.dev/profile_img.jpg">
+    <meta property="og:image:alt" content="Headshot of Joshua Bingham">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Joshua Bingham | Frontend & Full-Stack Developer">
+    <meta
+        name="twitter:description"
+        content="Frontend and full-stack developer building React and TypeScript prototypes, workflow tools, and data-driven web applications."
+    >
+    <meta name="twitter:image" content="https://joshbingham.dev/profile_img.jpg">
+    <meta name="twitter:image:alt" content="Headshot of Joshua Bingham">
+
     <link rel="stylesheet" href="styles.css">
 
     <!-- Font Awesome link -->
@@ -18,6 +41,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Joshua Bingham",
+    "url": "https://joshbingham.dev/",
+    "jobTitle": "Frontend and Full-Stack Developer",
+    "sameAs": [
+        "https://www.linkedin.com/in/joshua-bingham-48961112b",
+        "https://github.com/joshbingham"
+    ],
+    "knowsAbout": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "REST APIs",
+        "Frontend Development",
+        "Full-Stack Development",
+        "Workflow Tools",
+        "Web Application Prototypes"
+    ]
+    }
+    </script>
+
 </head>
 <body>
     <!-- Header -->
@@ -28,7 +78,7 @@
             <h1>Joshua Bingham</h1>
 
             <div class="header-image">
-                <img src="./profile_img.jpg" alt="Profile Picture of Joshua Bingham">
+                <img src="./profile_img.jpg" alt="Headshot of Joshua Bingham">
             </div>
 
             <h2>Turning complex workflows into clear web interfaces.</h2>
@@ -149,11 +199,11 @@
                 <h4>Film Finder</h4>
 
                 <p>
-                    An API-driven movie discovery app with genre filtering, release-window filtering, recommendations, and persistent user preferences.
+                    A taste-based movie discovery app that helps users find films by mood, genre, release period, and saved preferences.
                 </p>
 
                 <p>
-                    Built with JavaScript, serverless backend functions, and external API integration.
+                    Built with JavaScript, Vercel serverless functions, the TMDB API, LocalStorage, and a custom recommendation scoring system using ratings, popularity, filters, and user feedback.
                 </p>
 
                 <div class="project-links">
