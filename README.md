@@ -34,7 +34,7 @@ Built with Phaser 3, JavaScript, Node.js, Express and Supabase.
 
 ## Tech I work with
 
-React · TypeScript · JavaScript · Node.js · Express · REST APIs · HTML · CSS · Git · GitHub · Vercel
+React · TypeScript · JavaScript · Node.js · Express · REST APIs · PostgreSQL · Supabase · HTML · CSS · Git · GitHub · Vercel
 
 ## Currently open to
 
