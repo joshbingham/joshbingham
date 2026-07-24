@@ -2,7 +2,7 @@
 
 I'm a frontend and full-stack developer based in Worthing, UK.
 
-I build React and TypeScript prototypes, workflow tools, and data-driven web applications that make information easier to search, filter, save, edit and act on.
+I build thoughtful web applications that simplify complex workflows and help people make better decisions. My projects focus on turning information-heavy tasks into clear, intuitive experiences using React, TypeScript, Node.js and modern web technologies.
 
 🌐 Portfolio: [joshbingham.dev](https://joshbingham.dev/)
 
@@ -10,7 +10,7 @@ I build React and TypeScript prototypes, workflow tools, and data-driven web app
 
 ### Film Finder
 
-A taste-based movie discovery app that helps users find films by mood, genre, release period and saved preferences.
+A recommendation engine designed to reduce decision fatigue by helping users discover films that match their tastes, mood and preferences.
 
 Built with JavaScript, Vercel serverless functions, the TMDB API, LocalStorage and custom recommendation scoring.
 
@@ -18,7 +18,7 @@ Built with JavaScript, Vercel serverless functions, the TMDB API, LocalStorage a
 
 ### First Step Jobs
 
-A full-stack job discovery platform that aggregates roles from multiple APIs and helps users compare opportunities more clearly.
+A decision-support platform that helps job seekers compare opportunities using personalised recommendations, commute insights and intelligent filtering.
 
 Built with React, Node.js, Express and external APIs.
 
@@ -26,7 +26,7 @@ Built with React, Node.js, Express and external APIs.
 
 ### Mole Unearther
 
-A browser game with a live leaderboard.
+An arcade game exploring responsive gameplay systems, real-time feedback and persistent online competition through a live leaderboard.
 
 Built with Phaser 3, JavaScript, Node.js, Express and Supabase.
 
