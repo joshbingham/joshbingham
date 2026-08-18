@@ -8,13 +8,13 @@ I build thoughtful web applications that simplify complex workflows and help peo
 
 ## Featured projects
 
-### Film Finder
+### FreshCue
 
-A recommendation engine designed to reduce decision fatigue by helping users discover films that match their tastes, mood and preferences.
+A full-stack food inventory and recipe-planning application designed to help users prioritise food approaching expiry and discover meals using ingredients they already have.
 
-Built with JavaScript, Vercel serverless functions, the TMDB API, LocalStorage and custom recommendation scoring.
+Built with React, TypeScript, Node.js, Express, PostgreSQL and REST APIs, with real recipe data provided through the Spoonacular API.
 
-[Live app](https://film-finder-khaki.vercel.app/) · [Repository](https://github.com/joshbingham/Film-Finder)
+[Repository](https://github.com/joshbingham/fresh-cue)
 
 ### First Step Jobs
 
@@ -24,13 +24,13 @@ Built with React, Node.js, Express and external APIs.
 
 [Live app](https://first-step-jobs-i7z9.vercel.app/) · [Repository](https://github.com/joshbingham/first-step-jobs)
 
-### Mole Unearther
+### Film Finder
 
-An arcade game exploring responsive gameplay systems, real-time feedback and persistent online competition through a live leaderboard.
+A recommendation engine designed to reduce decision fatigue by helping users discover films that match their tastes, mood and preferences.
 
-Built with Phaser 3, JavaScript, Node.js, Express and Supabase.
+Built with JavaScript, Vercel serverless functions, the TMDB API, LocalStorage and custom recommendation scoring.
 
-[Live app](https://joshbingham.github.io/Mole-Game/) · [Repository](https://github.com/joshbingham/Mole-Game)
+[Live app](https://film-finder-khaki.vercel.app/) · [Repository](https://github.com/joshbingham/Film-Finder)
 
 ## Tech I work with
 
